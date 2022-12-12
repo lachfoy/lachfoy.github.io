@@ -1,0 +1,3 @@
+[submodule "html5raycaster"]
+	path = html5raycaster
+	url = https://github.com/lachfoy/html5raycaster
