@@ -1,0 +1,49 @@
+body {
+    width: 50%;
+    min-width: 50rem;
+    margin: 0 auto;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 13pt;
+}
+
+.item-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-content: center;
+}
+
+.item-desc-container {
+    width: 50%;
+    min-width: 25rem;
+}
+
+.item-img-container {
+    width: 50%;
+    min-width: 25rem;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.item-img-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.item-img-container ul {
+    margin-top: 4rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.item-img-container li {
+    display: inline;
+    text-decoration: none;
+}
+
+.footer {
+    height: 18rem;
+}
