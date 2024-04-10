@@ -1,15 +1,11 @@
 import './HomePage.css';
 
-function HomePage() {
+export function HomePage() {
   return (
     <div>
-        <h1>Hello!</h1>
-        <h1>My name is Lachlan Foy.</h1>
-        <h1>I'm a programmer from Melbourne, Australia.</h1>
-        <h1>Contact me at @email.com</h1>
-
+        <h1>Hello! my name is Lachlan Foy.</h1>
+        <h2>I'm a programmer from Melbourne, Australia.</h2>
+        <p>Contact me at @email.com</p>
     </div>
   );
 }
-
-export default HomePage;

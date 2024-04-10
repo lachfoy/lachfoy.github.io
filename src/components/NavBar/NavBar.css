@@ -1,3 +1,9 @@
 .nav {
     display: flex;
+    justify-content: flex-end;
+    /* border: solid 1px red; */
+}
+
+.nav-link {
+    padding: 10px;
 }
