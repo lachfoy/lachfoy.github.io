@@ -1,29 +1,36 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
-import { NavBar } from './components/NavBar';
-import { ContactPage } from './pages/ContactPage';
-import { Footer } from './components/Footer';
+// import { ContactPage } from './pages/ContactPage';
 
 import './App.css';
+import { AnimatePresence } from "framer-motion";
+import { useLocation, useRoutes } from "react-router-dom";
 
-function App() {
-  return (
-    <Router>
-      <div className='page'>
-        <NavBar />
-        <div className='content'>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="about" element={<AboutPage />} />
-            <Route path="contact" element={<ContactPage />} />
-          </Routes>
-        </div>
-        <Footer />
-      </div>
-    </Router>
-  );
+export default function App() {
+
+    const element = useRoutes([
+      {
+        path: "/",
+        element: <HomePage />
+      },
+      {
+        path: "/about",
+        element: (
+          <AboutPage/>
+        )
+      }
+    ]);
+
+    const location = useLocation();
+
+    if (!element) return null;
+
+    return (
+      <AnimatePresence mode="wait">
+        {React.cloneElement(element, { key: location.pathname })}
+      </AnimatePresence>
+    );
 }
 
-export default App;
