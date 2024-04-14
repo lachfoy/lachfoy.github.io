@@ -1,4 +1,3 @@
-import './AboutPage.css';
 import { motion } from "framer-motion";
 
 export function AboutPage() {
