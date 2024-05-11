@@ -1,10 +1,10 @@
 export function Footer() {
   return (
     <div className='footer'>
-      <span className="subtitle">
-        Lachlan Foy 2024
-        Made with React, CSS and flutter-motion.
-      </span>
+      <div>
+        <p className="subtitle">Lachlan Foy 2024</p>
+        <p className="subtitle"><a href="https://github.com/lachfoy/lachfoy.github.io">Source of this website</a></p>
+      </div>
 
       <div className="icon-container">
         <a href="https://www.linkedin.com/in/lachlan-foy-388056217/" className='icon'>
