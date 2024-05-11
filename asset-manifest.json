@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.82aee59a.css",
-    "main.js": "/static/js/main.6772da77.js",
+    "main.css": "/static/css/main.ec73d8cc.css",
+    "main.js": "/static/js/main.66c7dde9.js",
+    "static/media/unityspells.png": "/static/media/unityspells.dbb581848dbad63d7ef3.png",
+    "static/media/butchermania.png": "/static/media/butchermania.cfd7f3456631183824d1.png",
+    "static/media/cooltilerendering.png": "/static/media/cooltilerendering.5202160f7b0417ed47fc.png",
+    "static/media/2dgame.png": "/static/media/2dgame.5c29a18131ea6e5cc390.png",
+    "static/media/turretgame.png": "/static/media/turretgame.368fd7796bc0f6017e13.png",
     "index.html": "/index.html",
-    "main.82aee59a.css.map": "/static/css/main.82aee59a.css.map",
-    "main.6772da77.js.map": "/static/js/main.6772da77.js.map"
+    "main.ec73d8cc.css.map": "/static/css/main.ec73d8cc.css.map",
+    "main.66c7dde9.js.map": "/static/js/main.66c7dde9.js.map"
   },
   "entrypoints": [
-    "static/css/main.82aee59a.css",
-    "static/js/main.6772da77.js"
+    "static/css/main.ec73d8cc.css",
+    "static/js/main.66c7dde9.js"
   ]
 }
