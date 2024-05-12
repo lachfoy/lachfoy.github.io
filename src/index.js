@@ -13,14 +13,14 @@ const root = ReactDOM.createRoot(rootElement);
 
 root.render(
   <StrictMode>
-      <BrowserRouter>
-        <div className="main-content">
-          <NavBar />
-            <div className="page">
-              <App />
-            </div>
-          <Footer />
+    <BrowserRouter>
+      <div className="main-content">
+        <NavBar />
+        <div className="page-content">
+          <App />
         </div>
-      </BrowserRouter>
+        <Footer />
+      </div>
+    </BrowserRouter>
   </StrictMode>
 );

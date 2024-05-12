@@ -1,4 +1,5 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
+// import { GalleryItem } from "../components/GalleryItem"
 
 export function HomePage() {
   return (
@@ -16,17 +17,16 @@ export function HomePage() {
     <div>
       <h1>Hello! my name is Lachlan Foy.</h1>
       <h2>I'm a programmer from Melbourne, Australia.</h2>
-      <p>Page is currently under construction!</p>
-      {/* <p>Currently I work professionally in games and specialize in UI programming. I really enjoy working in UI because I am able to help create something that is visually really interesting. Working in game UI particularly is a great and unique challenge.</p>
-      <p>From a programming perspective, UI design patterns are interesting and a hugely important factor in writing maintainable code.</p>
-      <p>I love getting to work closely with designers and artists</p>
 
-      <p>I am skilled in C++, C#, Lua, WPF/xaml, NoesisGUI.</p> */}
-      <p>Contact me at lachie.foy7@gmail.com</p>
+      <p>I work in games, specializing in UI programming. UI is fun and challenging, especially in creating interfaces that are visually engaging and easy to use. I enjoy the collaborative aspect of working with designers and artists to make something cool.<br />
+        UI programming is often underestimated, but using design patterns helps in maintaining and reusing code effectively.</p>
 
-      <div>
+      <p>While UI is my main role, I consider myself to be a flexible programmer who is able to to tackle problems in all areas of a codebase.</p>
 
-      </div>
+      <p>At work, I use tools like C++, C#, Lua, WPF/xaml, and NoesisGUI. In my free time, I like experimenting with CSS/HTML/JavaScript, Reactjs, and working on my own game engine projects with OpenGL and C++.</p>
+
+      <p>Feel free to contact me at <a href="mailto:lachie.foy7@gmail.com">lachie.foy7@gmail.com</a> :&#41;</p>
+
     </div>
 
   );
