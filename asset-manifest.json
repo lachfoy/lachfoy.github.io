@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.e0aae723.css",
-    "main.js": "/static/js/main.d26074f9.js",
+    "main.js": "/static/js/main.376c87a9.js",
     "static/media/unityspells.png": "/static/media/unityspells.dbb581848dbad63d7ef3.png",
-    "static/media/butchermania.png": "/static/media/butchermania.cfd7f3456631183824d1.png",
     "static/media/cooltilerendering.png": "/static/media/cooltilerendering.5202160f7b0417ed47fc.png",
     "static/media/2dphysics.png": "/static/media/2dphysics.ad6d18a61800ff4c62ff.png",
     "static/media/2dgame.png": "/static/media/2dgame.5c29a18131ea6e5cc390.png",
     "static/media/turretgame.png": "/static/media/turretgame.368fd7796bc0f6017e13.png",
     "index.html": "/index.html",
     "main.e0aae723.css.map": "/static/css/main.e0aae723.css.map",
-    "main.d26074f9.js.map": "/static/js/main.d26074f9.js.map"
+    "main.376c87a9.js.map": "/static/js/main.376c87a9.js.map"
   },
   "entrypoints": [
     "static/css/main.e0aae723.css",
-    "static/js/main.d26074f9.js"
+    "static/js/main.376c87a9.js"
   ]
 }
