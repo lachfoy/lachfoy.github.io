@@ -18,8 +18,7 @@ export function HomePage() {
       <h1>Hello! my name is Lachlan Foy.</h1>
       <h2>I'm a programmer from Melbourne, Australia.</h2>
 
-      <p>I work in games, specializing in UI programming. UI is fun and challenging, especially in creating interfaces that are visually engaging and easy to use. I enjoy the collaborative aspect of working with designers and artists to make something cool.<br />
-        UI programming is often underestimated, but using design patterns helps in maintaining and reusing code effectively.</p>
+      <p>I work in games, specializing in UI programming. UI is fun and challenging, especially in creating interfaces that are visually engaging and easy to use. I enjoy the collaborative aspect of working with designers and artists to make something cool.</p>
 
       <p>While UI is my main role, I consider myself to be a flexible programmer who is able to to tackle problems in all areas of a codebase.</p>
 
