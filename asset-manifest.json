@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.970baaf7.css",
-    "main.js": "/static/js/main.b32c71f1.js",
+    "main.css": "/static/css/main.1e183bb3.css",
+    "main.js": "/static/js/main.835ddb8a.js",
     "static/media/3dengine.mp4": "/static/media/3dengine.70b678f05518e9aa3326.mp4",
     "static/media/erosion.mp4": "/static/media/erosion.20cc206e4ac75c046a43.mp4",
     "static/media/unityspells.png": "/static/media/unityspells.dbb581848dbad63d7ef3.png",
@@ -11,11 +11,11 @@
     "static/media/2dgame.png": "/static/media/2dgame.5c29a18131ea6e5cc390.png",
     "static/media/turretgame.png": "/static/media/turretgame.368fd7796bc0f6017e13.png",
     "index.html": "/index.html",
-    "main.970baaf7.css.map": "/static/css/main.970baaf7.css.map",
-    "main.b32c71f1.js.map": "/static/js/main.b32c71f1.js.map"
+    "main.1e183bb3.css.map": "/static/css/main.1e183bb3.css.map",
+    "main.835ddb8a.js.map": "/static/js/main.835ddb8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.970baaf7.css",
-    "static/js/main.b32c71f1.js"
+    "static/css/main.1e183bb3.css",
+    "static/js/main.835ddb8a.js"
   ]
 }
